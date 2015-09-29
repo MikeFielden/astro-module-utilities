@@ -1,3 +1,13 @@
 language: node_js
 node_js:
 - '4.0'
+cache:
+  directories:
+  - node_modules
+deploy:
+  provider: npm
+  email: fielden.mike@gmail.com
+  api_key:
+    secure: GRcB2iuYVna2GthhBBfeOyEQuqpxLNsd/8vYgxzTCabIhiafuZgT+lYIATF3mTG9Cb2ZeOSdcc7pLS66LU6qm3C0CdYW53CTYNuxTFUNV+NV5UqGBj6n5LbikmfBBZu4dboicFj1lSQ9WRPovrJwydAtBMuO/8vGouuH0p6YxLy+rCd/p/W8bFzZfQ/TTzI0si0J9JBMTVDjSWfi50YG3Rw5eTbm1WeLtuaFX4M/Ddt+dDrX3OgM40wOp6sPSAzX9Ix8hcgIAVu9d7lS01xcM1/3eA8NWVleGMe8uZj+Qhfv9E6xRuYL87sEoeMo77eObNGiaJRGn1qpfgSwaGaXp6aB2AzHNYZfiW0QrPxomclLgp4ayyLqsDp71lm5RqVBUSG2ycIz/kR+rcjjJot81llex3Xw4m8CAZNc26s/ixEaksihbosOWVHOzKUSZkp+xuzYcePqYi9LdM0KknVnO+ZtXy/IlptNka7/k6hgIXJxP+kvV05a5BwazB3F7OtS2GolGvBwPAqsUWCcou6ZlH35dPx99hArAaxLAEGIL+7nVXqNDawOSUROiYekj0tA+DJ+YrCRgLY1CNAAlnD/M1c+AjOALciiMYH0lDeVQiMwD6pQpPKMRDPnzTn+fkmHio7lHMmxOduj23Ikzv3fwb9+uw25YNfSUg2z9yEIo2w=
+  on:
+    repo: MikeFielden/astro-module-utilities
