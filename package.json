@@ -22,6 +22,9 @@
     "url": "https://github.com/MikeFielden/astro-module-utilities/issues"
   },
   "homepage": "https://github.com/MikeFielden/astro-module-utilities#readme",
+  "devDependencies": {
+    "astro": "^0.7.1"
+  },
   "dependencies": {
     "chalk": "^1.1.1"
   }
