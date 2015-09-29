@@ -1,0 +1,28 @@
+{
+  "name": "astro-module-utilities",
+  "version": "1.0.0",
+  "description": "A toolbox of sorts",
+  "main": "dist/index.js",
+  "scripts": {
+    "postinstall": "npm run transpile",
+    "transpile": "astro babel",
+    "test": "exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://MikeFielden@github.com/MikeFielden/astro-module-utilities.git"
+  },
+  "keywords": [
+    "astro",
+    "astro-cli"
+  ],
+  "author": "Mike Fielden",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MikeFielden/astro-module-utilities/issues"
+  },
+  "homepage": "https://github.com/MikeFielden/astro-module-utilities#readme",
+  "dependencies": {
+    "chalk": "^1.1.1"
+  }
+}
